@@ -1,11 +1,13 @@
-* Put all the files on server
-* Import into your database db.sql as SQL file
-* Configure init.file ... Update your $GLOBALS array
+To start:
+* Put all the files on your server
+* Import into your database database.sql as SQL file
+* Configure init.file ... Update your db settings
 * Enjoy! 
 
 
 Notes: 
 * For database connection using pdo
+* Indexes in DB are used for faster queries
 * Code follows PSR-2
 * No frameworks used (only JQUERY library)
 * Might have a few security holes
