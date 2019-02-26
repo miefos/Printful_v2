@@ -1,0 +1,54 @@
+/*
+//
+//  Here are stylesheet for progress bar
+//
+//	Here are stylesheet for questions area
+//
+*/
+
+div.container {
+	margin:auto;
+	width:100%;
+	text-align:center;
+}
+#answers-container {
+	display: grid;
+  justify-content: center;
+  text-align: center;
+
+}
+div#outer_answer {
+	/*justify-content: center;*/
+	/*text-align: center;*/
+
+}
+
+button[id^='ans'] {
+	width: 200px;
+	min-height:100px;
+	margin:5px;
+	float:left;
+	background-color: gray;
+}
+
+/*
+//
+//  Here are stylesheet for progress bar
+//
+*/
+
+#myProgress {
+  width: 60%;
+  background-color: #ddd;
+  border-radius: 100px;
+  margin:auto;
+  margin-top:50px;
+}
+
+
+#myBar {
+  height: 10px;
+  background-color: #4CAF50;
+  line-height: 10px;
+  border-radius: 100px;
+}
